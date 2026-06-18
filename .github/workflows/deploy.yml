@@ -30,3 +30,9 @@ jobs:
           path: .
       - id: deploy
         uses: actions/deploy-pages@v4
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 23f2000254@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
